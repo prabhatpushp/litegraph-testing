@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="./styles/litegraph.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="./styles/litegraph-editor.css" /> -->
+        <script type="text/javascript" src="./scripts/litegraph.js"></script>
+    </head>
+    <body>
+        <div class="commands-bar">
+            <button onclick="graph.clear()">Clear</button>
+            <button onclick="graph.start()">Start</button>
+            <button onclick="graph.stop()">Stop</button>
+            <button onclick="addCustomNode()">Add Custom Node</button>
+        </div>
+        <div class="litegraph litegraph-editor">
+            <canvas id="litegraph-canvas" width="720" height="580"></canvas>
+        </div>
+        <script type="text/javascript" src="./scripts/init.js"></script>
+        <script type="text/javascript" src="./scripts/nodes.js"></script>
+        <script type="text/javascript" src="./scripts/commands.js"></script>
+    </body>
+</html>

@@ -20,7 +20,7 @@ LiteGraph Testing is a web application that allows users to create and manipulat
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <YOUR_GIT_URL>
+   git clone https://github.com/prabhatpushp/litegraph-testing
    cd litegraph-testing
    ```
 2. Open the `index.html` file in your web browser.
